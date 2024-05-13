@@ -6,7 +6,7 @@ public class Growth : MonoBehaviour
 {
     [SerializeField] private float _speedGrowth = 0.1f;
 
-    void Update()
+    private void Update()
     {
         var size = _speedGrowth * Time.deltaTime;
 
